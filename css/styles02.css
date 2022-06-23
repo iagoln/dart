@@ -83,121 +83,55 @@ nav>ul>li>a:hover{
 	border:1px solid black;
 } */
 
-.lado-lado{
-	display: flex;
-	margin-top: 20px;
-	margin-bottom: 20px;
+.banner1 img{
+	height: 100px;
+	width: 200px;
+	margin: 35px;
 }
 
-aside {
-	
-	/*
-	flex-grow: 0;
-	flex-shrink: 0;
-	flex-basis: 300px;
-	*/
-
-	flex: 0 0 300px;
-	padding: 20px;
-	border-right:1px solid #CCC; 
+article.produtos{
+	border: red solid 1px;
+	margin: 0px 35px 35px;
 }
 
-.lado-lado>aside>.asideItem{
-	margin-bottom: 20px;
-	padding-bottom: 20px;
-	border-bottom: 1px solid #CCC; 
-}
-
-.lado-lado>aside>.asideItem>label{
-	display: block;
-}
-
-.lado-lado>aside>.asideItem>select{
-	width:100%;
-}
-
-.lado-lado>aside>.asideItem>select>option{
-	padding: 10px;
-}
-
-main {
-	padding: 20px;
-}
-
-.lado-lado>main{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	column-gap: 30px;
-	align-items: baseline;
-	row-gap: 50px;
-}
-
-.lado-lado>main>.produto{
-	padding: 10px;
-}
-
-.lado-lado>main>.produto:hover{
-	outline: 1px solid #F0F0F0;
-	cursor: pointer;
-}
-
-.lado-lado>main>.produto:hover .controles a{
-	color: #000;
-}
-
-.lado-lado>main>.produto h3{
-	margin:0;
-	font-size: 16px;
-}
-
-.lado-lado>main>.produto p {
-	font-size: 14px;
-	margin:10px 0;
-	color:#666;
-}
-
-
-.lado-lado>main>.produto img{
-	width: 100%;
-	display: block;
-	margin-bottom:20px;
-}
-
-.lado-lado>main>.produto .info-preco{
-	margin-bottom: 20px;
-	text-align: center;
-}
-
-.lado-lado>main>.produto .info-preco .preco{
-	display: block;
-}
-
-.lado-lado>main>.produto .info-preco .parcelamento{
-	display: block;
-	font-size: 12px;
-}
-
-.lado-lado>main>.produto .controles{
-	display: flex;
-	justify-content: space-between;
-}
-
-.lado-lado>main>.produto .controles a{
-	display: inline-block;
-	text-align: center;
+article .card{
+	width: 173px;
 	display: flex;
 	flex-direction: column;
-	font-size: 12px;
-	cursor: pointer;
-	color: #666;
+	align-items: center;
+	border: blue solid 1px;
+}
+
+.produtoIMG img{
+	height: 173px;
+	width: 173px;
+}
+
+.infoProd{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.Promo img {
+	height: 100px;
+	width: 200px;
+	margin: 0px 35px 35px
 }
 
 
 footer{
-	padding: 20px;
-	background-color: #333;
-	color:#FFF;
-	margin-top: auto;
+	background-color: #454956;
+	display: flex;
+	flex-direction: row;
 }
 
+footer .mapa img{
+	height: 100px;
+	width: 100px;
+	border-radius: 8px;
+}
 
+footer .footInfo{
+	color: white;
+}
