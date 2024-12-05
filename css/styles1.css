@@ -70,7 +70,7 @@ nav>ul{
 
 nav>ul>li>a{
 	text-decoration: none;
-	padding: 20px;
+	padding: 15px;
 	display: inline-block;
 	color: #333;
 }
@@ -108,46 +108,53 @@ nav>ul>li>a:hover{
 
 }
 
-section nav {
-    
+navig {
     margin-top: 2rem;
-    margin-left: 4.3rem;
     margin-bottom: 5rem;
+    
 }
 
-nav ol  {
+navig ol  {
     list-style-type: none;
+    width:480px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
-nav ol li {
+navig ol li {
     display: inline;
     font-family: "Roboto";
 }
 
-nav ol li::after  {
+navig ol li::after  {
     content: '>';
     margin-right: 1rem;
 }
 
-nav ol li:last-child::after {
+navig ol li:last-child::after {
     content: '';
 
 }
 
-nav  ol li a  {
+navig ol li a  {
     color: var(--cor-principal);
     text-decoration: none;
     font-size: 1.8rem;
     margin-right: 1rem;
 }
 
-nav ol li a:hover {
+navig ol li a:hover {
     color: var(--cor-secundaria);
     text-decoration: underline;
 }
 
 .container-master{
     display:flex;
+    /*margin-left: 130px;*/
+    justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	
 }
 
 /*ASIDE*/
@@ -272,7 +279,12 @@ line {
 }
 
 .seta-down{
+    width: 25px;
+    height: 25px;
     cursor:pointer;
+    position:relative;
+    top:55px;
+    
 }
 
 .right-title-right{
